@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+     <ImageView
+         android:paddingTop="10dp"
+         android:layout_width="150dp"
+         android:layout_height="150dp"
+         android:src="@drawable/user"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="info personnelles:"
+        android:fontFamily="cursive"
+        android:textColor="#8EA7E9"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+
+    <EditText
+        android:paddingStart="10dp"
+        android:id="@+id/etNom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="nom complet"
+        android:fontFamily="cursive"
+        android:cursorVisible="false"
+        android:textColorHint="#526D82"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/etstyle"/>
+
+
+    <EditText
+        android:id="@+id/etcin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="CIN"
+        android:fontFamily="cursive"
+        android:paddingStart="10dp"
+        android:textColorHint="#526D82"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:maxEms="8"
+        android:minEms="8"
+        android:inputType="number"
+        android:background="@drawable/etstyle"
+        />
+    <EditText
+        android:id="@+id/etphone"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tél"
+        android:fontFamily="cursive"
+        android:textColorHint="#526D82"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/etstyle"
+        android:inputType="phone"
+        android:maxEms="8"
+        android:minEms="8"
+        />
+    <EditText
+        android:id="@+id/etbirth"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:paddingStart="10dp"
+        android:hint="Date de naissance"
+        android:fontFamily="cursive"
+        android:textColorHint="#526D82"
+        android:background="@drawable/etstyle"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"/>
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:paddingStart="10dp"
+        android:hint="Date d'entrée"
+        android:textColorHint="#526D82"
+        android:fontFamily="cursive"
+        android:background="@drawable/etstyle"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/rgstrbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="29dp"
+            android:backgroundTint="#8EA7E9"
+            android:text="inscri"
+            android:fontFamily="cursive"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lst">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+
+            android:paddingStart="25dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/med"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="270dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/aspirin"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Aspirin"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="800 mg"
+                android:layout_marginStart="-255dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="350dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/pill1"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Diovan"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="320 mg"
+                android:layout_marginStart="-255dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="430dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/insuline"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Insulin"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="510dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/iron"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Iron Vitamin"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="590dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/vitamin"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Vitamin C"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

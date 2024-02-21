@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "855258845774",
+    "project_id": "lkcare1",
+    "storage_bucket": "lkcare1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855258845774:android:3d554599e9bd5e8f26e91f",
+        "android_client_info": {
+          "package_name": "com.example.lkcare1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACFsZCJzPYj2so41NIK7m6HUkk_JLSoCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="changemnet de pansement "
+        android:background="@drawable/checkbox" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="transfert à l’hôpital"
+        android:background="@drawable/checkbox"
+        android:layout_below="@id/checkBox1"/>
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="d’autres soins"
+        android:background="@drawable/checkbox"
+        android:layout_below="@id/checkBox2"/>
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="distribution de traitement "
+        android:background="@drawable/checkbox"
+        android:layout_below="@id/checkBox4"/>
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Injection des doses d’insuline"
+        android:background="@drawable/checkbox"
+        android:layout_below="@id/checkBox5"/>
+
+
+
+</LinearLayout>

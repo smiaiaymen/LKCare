@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lst">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lst1"
+            android:paddingTop="20dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="270dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/bandage"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Changement de pansement"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-30dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="350dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hospitall"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Transfert à l'hopital"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-30dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="430dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/capsule"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Distribution de traitement"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-30dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="510dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cardiogram"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Enregistrement des signes vitaux"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-30dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="590dp"
+            android:orientation="horizontal"
+            android:paddingStart="10dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/aidkit"/>
+            <TextView
+                android:paddingStart="5dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="D'autre soins"
+                android:textColor="@color/black"
+                android:textSize="18dp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-30dp">
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
